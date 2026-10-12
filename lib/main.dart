@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,20 +7,35 @@ void main() {
 //defining the widget
 
 class MyApp extends StatelessWidget {
-  const MyApp ({super.key});
-
+  const MyApp({super.key});
 
   @override
-
   Widget build(BuildContext context) {
-
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoadingScreen(),
-
-
     );
   }
 }
 
 
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Center widget Demo')),
+
+      //body
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisSize.min,
+          children: const [
+            CircularProgressIndicator(),
+            SizedBox(height: 20),
+            Text('Loading your orders ...'),
+          ],
+        ),
+      ),
+    );
+  }
+}
