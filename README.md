@@ -18,4 +18,6 @@ A loading screen
 Date: 14 October, 2026 
 
 
+## Screenshot of the widget 
 
+![Center Widget Demo](screenshots/screenshot_demoApp.png)
