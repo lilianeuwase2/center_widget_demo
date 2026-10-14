@@ -15,7 +15,7 @@ A loading screen
 
 ## Date of presentation 
 
-Date: 14 October. 2026 
+Date: 14 October, 2026 
 
 
 
