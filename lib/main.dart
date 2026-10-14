@@ -52,7 +52,7 @@ class CartScreen extends StatelessWidget {
           heightFactor: null,
 
           //
-          child: EmptyCartCard()
+          child: LoadingCard()
         ),
         // -------------------------------------------------
       ),
