@@ -21,3 +21,4 @@ Date: 14 October, 2026
 ## Screenshot of the widget 
 
 <img src="screenshots/screenshot_demoApp.png" alt="Center Widget Demo" width="300">
+<img src="screenshots/screenshot_loadingScreen.png" alt="Loading card" width="300"> 
